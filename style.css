@@ -1,4 +1,93 @@
-*{
-    margin: 0px;
-    padding: 0px;
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+#firstcontainer {
+  border: 1px solid black;
+  width: 700px;
+  padding: 30px;
+  border-radius: 10px;
+}
+.fontsizeandweight {
+  font-size: 30px;
+  font-weight: normal;
+  color: #b2b6b7;
+}
+#imageandmynaui {
+  display: flex;
+}
+#imagecont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#mynalogo {
+  width: 40px;
+  border-radius: 10px;
+}
+#mynaui {
+  font-size: 40px;
+  font-weight: bolder;
+  margin-left: 20px;
+}
+#separator {
+  margin-top: 20px;
+  color: black;
+  /* font-weight: bolder; */
+  /* font-size: large; */
+}
+#login {
+  font-size: 40px;
+  font-weight: bolder;
+  margin-top: 20px;
+}
+#nice {
+  margin-top: 10px;
+}
+#email {
+  margin-top: 30px;
+}
+.enteremail {
+  margin-top: 10px;
+  height: 70px;
+  width: 670px;
+  border-radius: 10px;
+  padding: 0px 15px;
+}
+#signinandarrow {
+  margin: 25px 0px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2662e9;
+  width: 700px;
+  height: 70px;
+  border-radius: 10px;
+}
+#arrowcont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 10px;
+}
+#arrow {
+  width: 40px;
+}
+.fontsizeandweight2 {
+  color: #2662e9;
+}
+#newandsignup {
+  display: flex;
+  margin-top: 25px;
+}
+#signup {
+  margin-left: 10px;
+}
+#shielandpara {
+  margin-top: 20px;
+  display: flex;
+}
+#top {
+  margin-left: 20px;
 }
