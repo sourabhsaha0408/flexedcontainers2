@@ -2,12 +2,34 @@
   margin: 0px;
   padding: 0px;
 }
-
+body {
+  display: flex;
+  justify-content: center;
+}
+#maincontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2463e9;
+  width: 2000px;
+  height: 1300px;
+}
 #firstcontainer {
   border: 1px solid black;
   width: 700px;
   padding: 30px;
   border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+#secondcontainer {
+  border: 1px solid black;
+  width: 700px;
+  margin: 50px 0px;
+  padding: 30px;
+  border-radius: 10px;
+  background-color: #1a46a4;
 }
 .fontsizeandweight {
   font-size: 30px;
@@ -33,9 +55,7 @@
 }
 #separator {
   margin-top: 20px;
-  color: black;
-  /* font-weight: bolder; */
-  /* font-size: large; */
+  color: #F8F8F8;
 }
 #login {
   font-size: 40px;
@@ -56,7 +76,7 @@
   padding: 0px 15px;
 }
 #signinandarrow {
-  margin: 25px 0px 30px;
+  margin: 25px 0px 40px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -84,10 +104,37 @@
 #signup {
   margin-left: 10px;
 }
-#shielandpara {
+#shieldandpara {
   margin-top: 20px;
   display: flex;
 }
 #top {
   margin-left: 20px;
+}
+
+.tickandtext {
+  display: flex;
+  margin: 10px 15px;
+}
+#tick {
+  width: 50px;
+}
+#text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: bold;
+  margin-left: 20px;
+  color: #90b4d8;
+}
+#praise {
+  font-size: 40px;
+  color: #90b4d8;
+  margin-top: 110px;
+}
+#sign {
+  width: 150px;
+  margin-top: 15px;
+  margin-bottom: 10px;
 }
